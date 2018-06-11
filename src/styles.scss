@@ -1,0 +1,59 @@
+@import "node_modules/bootswatch/dist/slate/variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootswatch/dist/slate/bootswatch";
+html,
+body {
+  height: 100%;
+}
+
+/** header **/
+
+.container {
+  max-width: 1000px;
+}
+
+div.masthead div.logo img {
+  width: 150px;
+}
+
+div.masthead .navbar .navbar-toggler {
+  border-color: rgb(107, 111, 115);
+}
+
+div.masthead .navbar .navbar-toggler-icon {
+  height: inherit;
+}
+
+div.masthead .navbar .nav-item {
+  margin-right: 5px;
+  border-bottom: .25rem solid transparent;
+}
+
+div.masthead .navbar .nav-item.active {
+  border-bottom-color: #ffffff;
+}
+
+div.masthead .navbar .nav-item:hover,
+div.masthead .navbar .nav-item:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+div.masthead .navbar .nav-item.active .nav-link,
+div.masthead .navbar .nav-item .nav-link:hover,
+div.masthead .navbar .nav-item .nav-link:focus {
+  background-color: unset;
+  background-image: unset;
+}
+
+div.masthead .navbar .nav-link {
+  padding: .3rem;
+}
+
+/** Custom Classes **/
+
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
